@@ -19,7 +19,7 @@ type user @model {
   username: String!
   role: String!
   status: Int!
-  permissions: Permissions
+  permissions: permissions
   adminID: ID!
   type: String
   uploadType: String
