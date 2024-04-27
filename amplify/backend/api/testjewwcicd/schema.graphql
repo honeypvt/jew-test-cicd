@@ -7,3 +7,48 @@ type Todo @model {
   name: String!
   description: String
 }
+
+type user @model {
+  id: ID!
+  rollno: String
+  gender: String
+  DOB: String
+  email: String!
+  password: String!
+  MobNumber: String!
+  username: String!
+  role: String!
+  status: Int!
+  permissions: Permissions
+  adminID: ID!
+  type: String
+  uploadType: String
+  groups: [String]
+  userID: ID
+  organisation: String
+  hodID: ID
+  tutorID: ID
+  Batch: String
+  department: [ID]
+  specialization: String
+  course: [ID]
+  resume: String
+  address: String
+  personName: String!
+  personDesignation: String!
+  OTP: String
+  branch: String
+  section: String
+  yearOfPassout: String
+  yearOfJoining: String
+  tenthPercentage: Int
+  InterPercentage: Int
+  diplomaPercentage: Int
+  graduationPercentage: Int
+  postGraduationPercentage: Int
+  Organizationcode: String
+  State: String
+  District: String
+  Pincode: String
+  Website: String
+}
